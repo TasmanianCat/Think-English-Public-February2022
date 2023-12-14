@@ -3,10 +3,10 @@
 	margin: 0;
 	border: 0;
 }
-*,*:before,*after{
+*,*:before,*:after{
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
-	-box-sizing: border-box;
+	box-sizing: border-box;
 }
 :focus,:active{outline: none;}
 a:focus,a:active{outline: none;}
@@ -38,7 +38,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 
 header {
 	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#b4e391+25,c7f79e+52,b4e391+80 */
-	display: block:
+	display: block;
 	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,afed87+50,ffffff+100&1+0,0+100 */
 	background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(175,237,135,0.5) 50%, rgba(255,255,255,0) 100%); /* FF3.6-15 */
 	background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(175,237,135,0.5) 50%,rgba(255,255,255,0) 100%); /* Chrome10-25,Safari5.1-6 */
@@ -85,6 +85,20 @@ p {
 	line-height: 1.5;
 	padding-left: 1rem;
 	padding-right: 1rem;
+}
+
+a,
+a:link,
+a:visited,
+a:active {
+	color: gray;
+	font-weight: 600;
+	transition: .25s ease-in-out;
+}
+
+a:hover {
+	color: rgb(0, 128, 0);
+	text-shadow: 0 0 6px gray;
 }
 
 .experience {
@@ -142,7 +156,7 @@ p {
 }
 
 footer {
-	display: block:
+	display: block;
 	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#b4e391+25,c7f79e+52,b4e391+80 */
 	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,afed87+50,ffffff+100&1+0,0+100 */
 	background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(175,237,135,0.5) 50%, rgba(255,255,255,0) 100%); /* FF3.6-15 */
